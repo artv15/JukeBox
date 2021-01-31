@@ -1,13 +1,13 @@
-item.musicheart.name=Music heart green
 item.record.ajoura.desc=Ajoura - The SCP Foundation Main Theme
+item.musicheart.name=Music heart green
 item.pereczhget.name=Pereczhget
 item.record.thefinalflashofexistance.desc=Hubert Mozska - The final flash of existance
 item.ajoura.name=SCPF theme
 item.duhast.name=Du Hast
 itemGroup.tabtreescomponents=Trees Components
-advancements.full.descr=Well, you killed alot of endermens. F to them...
-advancements.whataboutscp.title=What about SCP-173?
 itemGroup.tabwipstuff=WIP stuff
+advancements.whataboutscp.title=What about SCP-173?
+advancements.full.descr=Well, you killed alot of endermens. F to them...
 advancements.full.title=Wow, such a space!
 item.record.tetrusexndt.desc=Nintendo - Tetris 99 theme
 item.ppfull.name=JukeDisk

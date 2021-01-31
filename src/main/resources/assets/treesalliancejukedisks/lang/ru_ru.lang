@@ -1,13 +1,13 @@
-item.musicheart.name=Зелёный кристалл музыки
 item.record.ajoura.desc=Ajoura - The SCP Foundation Main Theme
+item.musicheart.name=Зелёный кристалл музыки
 item.record.thefinalflashofexistance.desc=Hubert Mozska - The final flash of existance
 item.pereczhget.name=Pereczhget
 item.ajoura.name=SCPF theme
 item.duhast.name=Du Hast
 itemGroup.tabtreescomponents=TreesJukeBox: Компоненты
-itemGroup.tabwipstuff=WIP stuff
-advancements.whataboutscp.title=Что насчёт печеньки?
 advancements.full.descr=Well, you killed alot of endermens. F to them...
+advancements.whataboutscp.title=Что насчёт печеньки?
+itemGroup.tabwipstuff=WIP stuff
 advancements.full.title=Wow, such a space!
 item.record.tetrusexndt.desc=Nintendo - Tetris 99 theme
 item.ppfull.name=PPK Ressurection(полная)
