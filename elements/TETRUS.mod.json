@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "tetrus",
+    "name": "TETRUS(short)",
+    "description": "Nintendo - Tetris 99 theme",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:tetrus-shrt"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

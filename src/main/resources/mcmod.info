@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "treesalliancejukedisks",
+    "name": "TreesAlliance_JukeDisks",
+    "description": "Ogo, kacheli!",
+    "version": "1.0.1",
+    "credits": "Perec is gay btw",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "http://curseforge.com",
+    "updateUrl": "",
+    "authorList": [
+      "artv15"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

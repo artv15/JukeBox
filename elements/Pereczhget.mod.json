@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "perec_dupstep",
+    "name": "Pereczhget",
+    "description": "Perec - Deadlocked",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:what"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

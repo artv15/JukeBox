@@ -1,0 +1,488 @@
+{
+  "id_map": {
+    "GUI": 2
+  },
+  "mod_elements": [
+    {
+      "name": "TreesJukeBox",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PPKressurection",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Heartoftheend",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bigppcraft",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Heartofend",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ppfull",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TreesComponents",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FullPPcraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RickRoll",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Rickcraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Full",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Thefinalflashofexistance",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Whataboutscp",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Duhast",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Scpfobia",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Duh",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Musicheart",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Musicheartgrn",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Pereczhget",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dupstepperec",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Someperecshit",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Perectitakoydaun",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WIPstuff",
+      "type": "tab",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TETRUS",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TET",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TreesFood",
+      "type": "tab",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TreesAdditions",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ajoura",
+      "type": "musicdisc",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ajour",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TETRUSEXNDT",
+      "type": "musicdisc",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Message1",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "message_1"
+    },
+    {
+      "name": "Message1RightClickedInAir",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "message_1_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tester",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tester"
+    },
+    {
+      "name": "Test",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
+    },
+    {
+      "name": "TestCommandExecuted",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ppkress",
+      "files": [
+        "ppk-resurection-voskreshenie_mp3.biz"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "ppres",
+      "files": [
+        "ppk-resurection-voskreshenie_mp3.biz"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "newbigpp",
+      "files": [
+        "ppk-resurection-voskreshenie_mp3cut.net_1"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "fullpp",
+      "files": [
+        "ppk-resurection-voskreshenie_mp3.biz"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "bigpp",
+      "files": [
+        "ppk-resurection-voskreshenie_mp3cut.net"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "rickisbad",
+      "files": [
+        "videoplayback"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "liz",
+      "files": [
+        "lcz"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "du_hast",
+      "files": [
+        "du_hast"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "what",
+      "files": [
+        "pieriets_mp3cut.net"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "scpfoundation",
+      "files": [
+        "videoplayback_1"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "tetrus-shrt",
+      "files": [
+        "etris_99_-_etris_99_heme_50_layers"
+      ],
+      "category": "music"
+    },
+    {
+      "name": "tetrus-exndt",
+      "files": [
+        "etris_99_50_layers_emaining_-_xtended"
+      ],
+      "category": "music"
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "item.musicheart.name": "Зелёный кристалл музыки",
+      "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
+      "itemGroup.tabtreesfood": "TreesAlliance: еда",
+      "item.record.thefinalflashofexistance.desc": "Hubert Mozska - The final flash of existance",
+      "item.pereczhget.name": "Pereczhget",
+      "item.ajoura.name": "SCPF theme",
+      "item.duhast.name": "Du Hast",
+      "itemGroup.tabtreescomponents": "TreesJukeBox: Компоненты",
+      "itemGroup.tabwipstuff": "WIP stuff",
+      "advancements.whataboutscp.title": "Что насчёт печеньки?",
+      "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
+      "advancements.full.title": "Wow, such a space!",
+      "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
+      "item.ppfull.name": "PPK Ressurection(полная)",
+      "item.record.ppfull.desc": "haha space fully goes brrrr",
+      "item.record.duhast.desc": "Alex C - Du Hast",
+      "item.record.ppkressurection.desc": "space goes pew pew",
+      "itemGroup.tabtreesjukebox": "TreesJukeBox",
+      "item.heartoftheend.name": "Сердце энда",
+      "advancements.treesadditions.title": "Tree\u0027s Additions",
+      "advancements.tester.descr": "Run test command!",
+      "item.message_1.name": "Message 1",
+      "advancements.tester.title": "Tester",
+      "item.record.pereczhget.desc": "Perec - Deadlocked",
+      "item.thefinalflashofexistance.name": "The final flash of existance",
+      "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
+      "advancements.whataboutscp.descr": "Why scp:sl says what I use cheats?",
+      "item.record.rickroll.desc": "Точно не рикролл",
+      "item.tetrus.name": "TETRUS",
+      "advancements.treesadditions.descr": "The beggining of your jorney",
+      "item.someperecshit.name": "долбаёб под именем перец",
+      "item.rickroll.name": "Rick Roll",
+      "item.ppkressurection.name": "PPK Ressurection",
+      "item.tetrusexndt.name": "TETRUS"
+    },
+    "en_us": {
+      "item.musicheart.name": "Music heart green",
+      "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
+      "itemGroup.tabtreesfood": "Tree\u0027s Food",
+      "item.pereczhget.name": "Pereczhget",
+      "item.record.thefinalflashofexistance.desc": "Hubert Mozska - The final flash of existance",
+      "item.ajoura.name": "SCPF theme",
+      "item.duhast.name": "Du Hast",
+      "itemGroup.tabtreescomponents": "Trees Components",
+      "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
+      "advancements.whataboutscp.title": "What about SCP-173?",
+      "itemGroup.tabwipstuff": "WIP stuff",
+      "advancements.full.title": "Wow, such a space!",
+      "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
+      "item.ppfull.name": "JukeDisk",
+      "item.record.ppfull.desc": "PPK - Ressurection(full)",
+      "item.record.duhast.desc": "Alex C - Du Hast",
+      "item.record.ppkressurection.desc": "PPK - Ressurection(cutted)",
+      "itemGroup.tabtreesjukebox": "Trees Juke Box",
+      "item.heartoftheend.name": "Heart of the end",
+      "advancements.treesadditions.title": "Tree\u0027s Additions",
+      "advancements.tester.descr": "Run test command!",
+      "item.message_1.name": "Message 1",
+      "advancements.tester.title": "Tester",
+      "item.record.pereczhget.desc": "Perec - Deadlocked",
+      "item.thefinalflashofexistance.name": "The final flash of existance",
+      "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
+      "advancements.whataboutscp.descr": "Why scp:sl says what I use cheats?",
+      "item.record.rickroll.desc": "Rick Astley - Never Gonna Give You Up",
+      "item.tetrus.name": "TETRUS(short)",
+      "advancements.treesadditions.descr": "The beggining of you jorney",
+      "item.someperecshit.name": "долбаёб под именем перец",
+      "item.rickroll.name": "JukeDisk",
+      "item.ppkressurection.name": "JukeDisk",
+      "item.tetrusexndt.name": "TETRUS Extended"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "treesalliancejukedisks",
+    "modName": "TreesAlliance_JukeDisks",
+    "version": "1.0.1",
+    "description": "Ogo, kacheli!",
+    "author": "artv15",
+    "websiteURL": "http://curseforge.com",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Perec is gay btw",
+    "modElementsPackage": "net.mcreator.treesalliancejukedisks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

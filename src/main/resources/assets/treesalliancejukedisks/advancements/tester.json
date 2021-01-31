@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "treesalliancejukedisks:message_1"
+    },
+    "title": {
+      "translate": "advancements.tester.title"
+    },
+    "description": {
+      "translate": "advancements.tester.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tester": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "treesalliancejukedisks:treesadditions"
+}

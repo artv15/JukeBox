@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "du_hast",
+    "name": "Du Hast",
+    "description": "Alex C - Du Hast",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:du_hast"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

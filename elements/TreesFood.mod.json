@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "Tree's Food",
+    "icon": {
+      "value": "CUSTOM:Someperecshit"
+    },
+    "showSearch": false
+  }
+}

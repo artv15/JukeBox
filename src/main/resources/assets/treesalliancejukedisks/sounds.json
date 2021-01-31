@@ -1,0 +1,110 @@
+{
+  "ppkress": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:ppk-resurection-voskreshenie_mp3.biz",
+        "stream": true
+      }
+    ]
+  },
+  "ppres": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:ppk-resurection-voskreshenie_mp3.biz",
+        "stream": true
+      }
+    ]
+  },
+  "newbigpp": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:ppk-resurection-voskreshenie_mp3cut.net_1",
+        "stream": true
+      }
+    ]
+  },
+  "fullpp": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:ppk-resurection-voskreshenie_mp3.biz",
+        "stream": true
+      }
+    ]
+  },
+  "bigpp": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:ppk-resurection-voskreshenie_mp3cut.net",
+        "stream": true
+      }
+    ]
+  },
+  "rickisbad": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:videoplayback",
+        "stream": true
+      }
+    ]
+  },
+  "liz": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:lcz",
+        "stream": true
+      }
+    ]
+  },
+  "du_hast": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:du_hast",
+        "stream": true
+      }
+    ]
+  },
+  "what": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:pieriets_mp3cut.net",
+        "stream": true
+      }
+    ]
+  },
+  "scpfoundation": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:videoplayback_1",
+        "stream": true
+      }
+    ]
+  },
+  "tetrus-shrt": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:etris_99_-_etris_99_heme_50_layers",
+        "stream": true
+      }
+    ]
+  },
+  "tetrus-exndt": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:etris_99_50_layers_emaining_-_xtended",
+        "stream": true
+      }
+    ]
+  }
+}

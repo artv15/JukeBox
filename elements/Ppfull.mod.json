@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "fullpp",
+    "name": "JukeDisk",
+    "description": "PPK - Ressurection(full)",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:fullpp"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

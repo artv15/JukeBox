@@ -1,0 +1,44 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "1": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "3": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "6": {
+      "item": "minecraft:slime_ball"
+    },
+    "7": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "8": {
+      "item": "minecraft:dye",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "treesalliancejukedisks:someperecshit",
+    "count": 1
+  }
+}

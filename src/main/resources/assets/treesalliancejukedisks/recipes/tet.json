@@ -1,0 +1,30 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wool",
+      "data": 13
+    },
+    {
+      "item": "minecraft:wool",
+      "data": 10
+    },
+    {
+      "item": "minecraft:wool",
+      "data": 4
+    },
+    {
+      "item": "minecraft:wool",
+      "data": 3
+    },
+    {
+      "item": "minecraft:wool",
+      "data": 14
+    }
+  ],
+  "result": {
+    "item": "treesalliancejukedisks:tetrus",
+    "count": 1
+  }
+}

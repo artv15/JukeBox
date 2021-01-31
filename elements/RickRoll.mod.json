@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "rick",
+    "name": "JukeDisk",
+    "description": "Rick Astley - Never Gonna Give You Up",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:rickisbad"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "scpf",
+    "name": "SCPF theme",
+    "description": "Ajoura - The SCP Foundation Main Theme",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:scpfoundation"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
