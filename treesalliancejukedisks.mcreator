@@ -204,14 +204,6 @@
       "ids": {}
     },
     {
-      "name": "TreesFood",
-      "type": "tab",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "TreesAdditions",
       "type": "achievement",
       "sortid": 29,
@@ -303,6 +295,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "Everftl",
+      "type": "musicdisc",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "everftl"
+    },
+    {
+      "name": "AtTheLightSpeed",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "at_the_light_speed"
+    },
+    {
+      "name": "FtlCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ftl_craft"
     }
   ],
   "variable_elements": [],
@@ -390,13 +409,20 @@
         "etris_99_50_layers_emaining_-_xtended"
       ],
       "category": "music"
+    },
+    {
+      "name": "ftl",
+      "files": [
+        "novyi_proiekt"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "item.musicheart.name": "Зелёный кристалл музыки",
       "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
-      "itemGroup.tabtreesfood": "TreesAlliance: еда",
       "item.record.thefinalflashofexistance.desc": "Hubert Mozska - The final flash of existance",
       "item.pereczhget.name": "Pereczhget",
       "item.ajoura.name": "SCPF theme",
@@ -408,10 +434,13 @@
       "advancements.full.title": "Wow, such a space!",
       "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
       "item.ppfull.name": "PPK Ressurection(полная)",
+      "subtitles.ftl": "",
       "item.record.ppfull.desc": "haha space fully goes brrrr",
       "item.record.duhast.desc": "Alex C - Du Hast",
       "item.record.ppkressurection.desc": "space goes pew pew",
       "itemGroup.tabtreesjukebox": "TreesJukeBox",
+      "item.everftl.name": "Everftl",
+      "advancements.at_the_light_speed.title": "At The Light Speed",
       "item.heartoftheend.name": "Сердце энда",
       "advancements.treesadditions.title": "Tree\u0027s Additions",
       "advancements.tester.descr": "Run test command!",
@@ -421,6 +450,8 @@
       "item.thefinalflashofexistance.name": "The final flash of existance",
       "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
       "advancements.whataboutscp.descr": "Why scp:sl says what I use cheats?",
+      "item.record.everftl.desc": "Everspace 2 - Light Travel",
+      "advancements.at_the_light_speed.descr": "Be the light...",
       "item.record.rickroll.desc": "Точно не рикролл",
       "item.tetrus.name": "TETRUS",
       "advancements.treesadditions.descr": "The beggining of your jorney",
@@ -432,7 +463,6 @@
     "en_us": {
       "item.musicheart.name": "Music heart green",
       "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
-      "itemGroup.tabtreesfood": "Tree\u0027s Food",
       "item.pereczhget.name": "Pereczhget",
       "item.record.thefinalflashofexistance.desc": "Hubert Mozska - The final flash of existance",
       "item.ajoura.name": "SCPF theme",
@@ -444,10 +474,13 @@
       "advancements.full.title": "Wow, such a space!",
       "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
       "item.ppfull.name": "JukeDisk",
+      "subtitles.ftl": "",
       "item.record.ppfull.desc": "PPK - Ressurection(full)",
       "item.record.duhast.desc": "Alex C - Du Hast",
       "item.record.ppkressurection.desc": "PPK - Ressurection(cutted)",
       "itemGroup.tabtreesjukebox": "Trees Juke Box",
+      "item.everftl.name": "Everftl",
+      "advancements.at_the_light_speed.title": "At The Light Speed",
       "item.heartoftheend.name": "Heart of the end",
       "advancements.treesadditions.title": "Tree\u0027s Additions",
       "advancements.tester.descr": "Run test command!",
@@ -457,6 +490,8 @@
       "item.thefinalflashofexistance.name": "The final flash of existance",
       "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
       "advancements.whataboutscp.descr": "Why scp:sl says what I use cheats?",
+      "item.record.everftl.desc": "Everspace 2 - Light Travel",
+      "advancements.at_the_light_speed.descr": "Be the light...",
       "item.record.rickroll.desc": "Rick Astley - Never Gonna Give You Up",
       "item.tetrus.name": "TETRUS(short)",
       "advancements.treesadditions.descr": "The beggining of you jorney",

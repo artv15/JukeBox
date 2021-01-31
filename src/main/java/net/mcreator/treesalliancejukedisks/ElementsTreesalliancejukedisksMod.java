@@ -78,6 +78,8 @@ public class ElementsTreesalliancejukedisksMod implements IFuelHandler, IWorldGe
 				new net.minecraft.util.SoundEvent(new ResourceLocation("treesalliancejukedisks", "tetrus-shrt")));
 		sounds.put(new ResourceLocation("treesalliancejukedisks", "tetrus-exndt"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("treesalliancejukedisks", "tetrus-exndt")));
+		sounds.put(new ResourceLocation("treesalliancejukedisks", "ftl"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("treesalliancejukedisks", "ftl")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

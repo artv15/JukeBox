@@ -1,0 +1,42 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_crystal"
+    },
+    "1": {
+      "item": "minecraft:ender_pearl"
+    },
+    "2": {
+      "item": "minecraft:end_crystal"
+    },
+    "3": {
+      "item": "minecraft:ender_pearl"
+    },
+    "4": {
+      "item": "treesalliancejukedisks:heartoftheend"
+    },
+    "5": {
+      "item": "minecraft:ender_pearl"
+    },
+    "6": {
+      "item": "treesalliancejukedisks:ppkressurection"
+    },
+    "7": {
+      "item": "minecraft:ender_pearl"
+    },
+    "8": {
+      "item": "treesalliancejukedisks:ppkressurection"
+    }
+  },
+  "result": {
+    "item": "treesalliancejukedisks:everftl",
+    "count": 1
+  }
+}

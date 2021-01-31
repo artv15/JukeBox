@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "es2_ftl",
+    "name": "Everftl",
+    "description": "Everspace 2 - Light Travel",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:ftl"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

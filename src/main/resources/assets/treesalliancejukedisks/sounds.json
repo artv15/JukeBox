@@ -106,5 +106,14 @@
         "stream": true
       }
     ]
+  },
+  "ftl": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:novyi_proiekt",
+        "stream": true
+      }
+    ]
   }
 }
