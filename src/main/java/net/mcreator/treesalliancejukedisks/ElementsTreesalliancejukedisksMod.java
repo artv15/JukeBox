@@ -34,6 +34,8 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.treesalliancejukedisks.gui.GuiErroreRefiner;
+
 import java.util.function.Supplier;
 import java.util.Random;
 import java.util.Map;
@@ -80,6 +82,8 @@ public class ElementsTreesalliancejukedisksMod implements IFuelHandler, IWorldGe
 				new net.minecraft.util.SoundEvent(new ResourceLocation("treesalliancejukedisks", "tetrus-exndt")));
 		sounds.put(new ResourceLocation("treesalliancejukedisks", "ftl"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("treesalliancejukedisks", "ftl")));
+		sounds.put(new ResourceLocation("treesalliancejukedisks", "errore"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("treesalliancejukedisks", "errore")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
@@ -151,11 +155,15 @@ public class ElementsTreesalliancejukedisksMod implements IFuelHandler, IWorldGe
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiErroreRefiner.GUIID)
+				return new GuiErroreRefiner.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiErroreRefiner.GUIID)
+				return new GuiErroreRefiner.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

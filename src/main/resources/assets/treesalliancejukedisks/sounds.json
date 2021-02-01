@@ -115,5 +115,14 @@
         "stream": true
       }
     ]
+  },
+  "errore": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:error_mined",
+        "stream": false
+      }
+    ]
   }
 }

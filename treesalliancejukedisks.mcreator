@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 2
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -322,6 +322,163 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ftl_craft"
+    },
+    {
+      "name": "TesterThings",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tester_things",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ErrorIngot",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_ingot"
+    },
+    {
+      "name": "Errorore",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "errorore"
+    },
+    {
+      "name": "AFatalExcepitonOccured",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_fatal_excepiton_occured"
+    },
+    {
+      "name": "ErrororeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "errorore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ErroreRefiner",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      },
+      "registry_name": "errore_refiner"
+    },
+    {
+      "name": "ErroreFurnace",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "errore_furnace"
+    },
+    {
+      "name": "ErroreFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "errore_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ErroreFurnaceOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "errore_furnace_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -417,88 +574,116 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "errore",
+      "files": [
+        "error_mined"
+      ],
+      "category": "block",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
-      "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
-      "item.musicheart.name": "Зелёный кристалл музыки",
       "item.record.thefinalflashofexistance.desc": "Hubert Mozska - The final flash of existance",
-      "item.pereczhget.name": "Pereczhget",
       "item.ajoura.name": "SCPF theme",
       "item.duhast.name": "Du Hast",
-      "itemGroup.tabtreescomponents": "TreesJukeBox: Компоненты",
       "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
       "advancements.whataboutscp.title": "Что насчёт печеньки?",
       "itemGroup.tabwipstuff": "WIP stuff",
       "advancements.full.title": "Wow, such a space!",
-      "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
-      "item.ppfull.name": "PPK Ressurection(полная)",
       "subtitles.ftl": "",
       "item.record.ppfull.desc": "haha space fully goes brrrr",
+      "advancements.at_the_light_speed.title": "At The Light Speed",
+      "advancements.tester.descr": "Run test command!",
+      "item.message_1.name": "Message 1",
+      "tile.errorore.name": "Errorore",
+      "item.record.pereczhget.desc": "Perec - Deadlocked",
+      "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
+      "item.record.everftl.desc": "Everspace 2 - Light Travel",
+      "subtitles.errore": "",
+      "item.tester_thingslegs.name": "Tester Things Leggings",
+      "item.tester_thingsboots.name": "Tester Things Boots",
+      "item.error_ingot.name": "Error Ingot",
+      "advancements.treesadditions.descr": "The beggining of your jorney",
+      "advancements.a_fatal_excepiton_occured.descr": "This... How... Error...",
+      "item.tetrusexndt.name": "TETRUS",
+      "item.musicheart.name": "Зелёный кристалл музыки",
+      "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
+      "item.pereczhget.name": "Pereczhget",
+      "itemGroup.tabtreescomponents": "TreesJukeBox: Компоненты",
+      "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
+      "item.ppfull.name": "PPK Ressurection(полная)",
       "item.record.duhast.desc": "Alex C - Du Hast",
       "item.record.ppkressurection.desc": "space goes pew pew",
       "itemGroup.tabtreesjukebox": "TreesJukeBox",
       "item.everftl.name": "Everftl",
-      "advancements.at_the_light_speed.title": "At The Light Speed",
+      "item.tester_thingshelmet.name": "Tester Things Helmet",
+      "tile.errore_furnace.name": "Errore Furnace",
       "item.heartoftheend.name": "Сердце энда",
       "advancements.treesadditions.title": "Tree\u0027s Additions",
-      "advancements.tester.descr": "Run test command!",
-      "item.message_1.name": "Message 1",
       "advancements.tester.title": "Tester",
-      "item.record.pereczhget.desc": "Perec - Deadlocked",
+      "item.tester_thingsbody.name": "Tester Things Body",
       "item.thefinalflashofexistance.name": "The final flash of existance",
-      "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
       "advancements.whataboutscp.descr": "Why scp:sl says what I use cheats?",
-      "item.record.everftl.desc": "Everspace 2 - Light Travel",
+      "advancements.a_fatal_excepiton_occured.title": "A Fatal Excepiton Occured",
       "advancements.at_the_light_speed.descr": "Be the light...",
-      "item.record.rickroll.desc": "Точно не рикролл",
       "item.tetrus.name": "TETRUS",
-      "advancements.treesadditions.descr": "The beggining of your jorney",
+      "item.record.rickroll.desc": "Точно не рикролл",
       "item.someperecshit.name": "долбаёб под именем перец",
       "item.rickroll.name": "Rick Roll",
-      "item.ppkressurection.name": "PPK Ressurection",
-      "item.tetrusexndt.name": "TETRUS"
+      "item.ppkressurection.name": "PPK Ressurection"
     },
     "en_us": {
-      "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
-      "item.musicheart.name": "Music heart green",
-      "item.pereczhget.name": "Pereczhget",
       "item.record.thefinalflashofexistance.desc": "Hubert Mozska - The final flash of existance",
       "item.ajoura.name": "SCPF theme",
       "item.duhast.name": "Du Hast",
-      "itemGroup.tabtreescomponents": "Trees Components",
       "itemGroup.tabwipstuff": "WIP stuff",
       "advancements.whataboutscp.title": "What about SCP-173?",
       "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
       "advancements.full.title": "Wow, such a space!",
-      "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
-      "item.ppfull.name": "JukeDisk",
       "subtitles.ftl": "",
       "item.record.ppfull.desc": "PPK - Ressurection(full)",
+      "advancements.at_the_light_speed.title": "At The Light Speed",
+      "advancements.tester.descr": "Run test command!",
+      "item.message_1.name": "Message 1",
+      "tile.errorore.name": "Errorore",
+      "item.record.pereczhget.desc": "Perec - Deadlocked",
+      "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
+      "item.record.everftl.desc": "Everspace 2 - Light Travel",
+      "subtitles.errore": "",
+      "item.tester_thingslegs.name": "Tester Things Leggings",
+      "item.tester_thingsboots.name": "Tester Things Boots",
+      "item.error_ingot.name": "Error Ingot",
+      "advancements.treesadditions.descr": "The beggining of you jorney",
+      "advancements.a_fatal_excepiton_occured.descr": "This... How... Error...",
+      "item.tetrusexndt.name": "TETRUS Extended",
+      "item.musicheart.name": "Music heart green",
+      "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
+      "item.pereczhget.name": "Pereczhget",
+      "itemGroup.tabtreescomponents": "Trees Components",
+      "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
+      "item.ppfull.name": "JukeDisk",
       "item.record.duhast.desc": "Alex C - Du Hast",
       "item.record.ppkressurection.desc": "PPK - Ressurection(cutted)",
       "itemGroup.tabtreesjukebox": "Trees Juke Box",
       "item.everftl.name": "Everftl",
-      "advancements.at_the_light_speed.title": "At The Light Speed",
+      "item.tester_thingshelmet.name": "Tester Things Helmet",
+      "tile.errore_furnace.name": "Errore Furnace",
       "item.heartoftheend.name": "Heart of the end",
       "advancements.treesadditions.title": "Tree\u0027s Additions",
-      "advancements.tester.descr": "Run test command!",
-      "item.message_1.name": "Message 1",
       "advancements.tester.title": "Tester",
-      "item.record.pereczhget.desc": "Perec - Deadlocked",
+      "item.tester_thingsbody.name": "Tester Things Body",
       "item.thefinalflashofexistance.name": "The final flash of existance",
-      "item.record.tetrus.desc": "Nintendo - Tetris 99 theme",
       "advancements.whataboutscp.descr": "Why scp:sl says what I use cheats?",
-      "item.record.everftl.desc": "Everspace 2 - Light Travel",
+      "advancements.a_fatal_excepiton_occured.title": "A Fatal Excepiton Occured",
       "advancements.at_the_light_speed.descr": "Be the light...",
-      "item.record.rickroll.desc": "Rick Astley - Never Gonna Give You Up",
       "item.tetrus.name": "TETRUS(short)",
-      "advancements.treesadditions.descr": "The beggining of you jorney",
+      "item.record.rickroll.desc": "Rick Astley - Never Gonna Give You Up",
       "item.someperecshit.name": "долбаёб под именем перец",
       "item.rickroll.name": "JukeDisk",
-      "item.ppkressurection.name": "JukeDisk",
-      "item.tetrusexndt.name": "TETRUS Extended"
+      "item.ppkressurection.name": "JukeDisk"
     }
   },
   "workspaceSettings": {

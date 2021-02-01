@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "treesalliancejukedisks:blocks/errore",
+    "up": "treesalliancejukedisks:blocks/errore",
+    "north": "treesalliancejukedisks:blocks/errore",
+    "east": "treesalliancejukedisks:blocks/errore",
+    "south": "treesalliancejukedisks:blocks/errore",
+    "west": "treesalliancejukedisks:blocks/errore",
+    "particle": "treesalliancejukedisks:blocks/errore"
+  }
+}
