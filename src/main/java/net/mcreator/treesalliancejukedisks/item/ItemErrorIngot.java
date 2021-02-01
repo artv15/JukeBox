@@ -9,10 +9,10 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.treesalliancejukedisks.creativetab.TabWIPstuff;
 import net.mcreator.treesalliancejukedisks.ElementsTreesalliancejukedisksMod;
 
 @ElementsTreesalliancejukedisksMod.ModElement.Tag
@@ -39,7 +39,7 @@ public class ItemErrorIngot extends ElementsTreesalliancejukedisksMod.ModElement
 			maxStackSize = 64;
 			setUnlocalizedName("error_ingot");
 			setRegistryName("error_ingot");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabWIPstuff.tab);
 		}
 
 		@Override

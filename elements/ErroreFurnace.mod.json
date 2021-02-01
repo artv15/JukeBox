@@ -24,14 +24,14 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Errore Furnace",
+    "name": "Errore Refiner",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TreesJukeBox"
+      "value": "CUSTOM:WIPstuff"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -77,7 +77,7 @@
     "particleAmount": 4,
     "hasInventory": true,
     "guiBoundTo": "ErroreRefiner",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

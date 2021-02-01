@@ -276,6 +276,14 @@ public class GuiErroreRefiner extends ElementsTreesalliancejukedisksMod.ModEleme
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
 			this.fontRenderer.drawString("Errore Refiner", 6, 7, -12829636);
+			this.fontRenderer.drawString("Fuel: " + ((int) new Object() {
+				public double getValue(BlockPos pos, String tag) {
+					TileEntity tileEntity = world.getTileEntity(pos);
+					if (tileEntity != null)
+						return tileEntity.getTileData().getDouble(tag);
+					return 0;
+				}
+			}.getValue(new BlockPos((int) x, (int) y, (int) z), "fuelRemaining")) + "%", 105, 7, -12829636);
 		}
 
 		@Override

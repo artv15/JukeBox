@@ -16,7 +16,18 @@
   },
   "criteria": {
     "a_fatal_excepiton_occured": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "treesalliancejukedisks:errorore",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

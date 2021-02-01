@@ -1,6 +1,10 @@
 package net.mcreator.treesalliancejukedisks.procedure;
 
+import net.minecraft.world.WorldServer;
 import net.minecraft.world.World;
+import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 
@@ -42,7 +46,19 @@ public class ProcedureErroreFurnaceOnBlockRightClicked extends ElementsTreesalli
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if (entity instanceof EntityPlayer)
-			((EntityPlayer) entity).openGui(TreesalliancejukedisksMod.instance, GuiErroreRefiner.GUIID, world, x, y, z);
+		if ((((entity instanceof EntityPlayerMP) && ((entity).world instanceof WorldServer))
+				? ((EntityPlayerMP) entity).getAdvancements()
+						.getProgress(((WorldServer) (entity).world).getAdvancementManager()
+								.getAdvancement(new ResourceLocation("treesalliancejukedisks:tester")))
+						.isDone()
+				: false)) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).openGui(TreesalliancejukedisksMod.instance, GuiErroreRefiner.GUIID, world, x, y, z);
+		} else {
+			if (entity instanceof EntityPlayer && !entity.world.isRemote) {
+				((EntityPlayer) entity).sendStatusMessage(
+						new TextComponentString("Tester privelegies required. Contact server admin or run /test command in creative mode"), (false));
+			}
+		}
 	}
 }

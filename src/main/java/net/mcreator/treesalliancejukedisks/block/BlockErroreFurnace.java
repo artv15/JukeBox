@@ -37,8 +37,7 @@ import net.minecraft.block.Block;
 import net.mcreator.treesalliancejukedisks.procedure.ProcedureErroreFurnaceUpdateTick;
 import net.mcreator.treesalliancejukedisks.procedure.ProcedureErroreFurnaceOnBlockRightClicked;
 import net.mcreator.treesalliancejukedisks.gui.GuiErroreRefiner;
-import net.mcreator.treesalliancejukedisks.creativetab.TabTreesJukeBox;
-import net.mcreator.treesalliancejukedisks.TreesalliancejukedisksMod;
+import net.mcreator.treesalliancejukedisks.creativetab.TabWIPstuff;
 import net.mcreator.treesalliancejukedisks.ElementsTreesalliancejukedisksMod;
 
 import java.util.Random;
@@ -79,7 +78,7 @@ public class BlockErroreFurnace extends ElementsTreesalliancejukedisksMod.ModEle
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabTreesJukeBox.tab);
+			setCreativeTab(TabWIPstuff.tab);
 		}
 
 		@Override
@@ -155,9 +154,6 @@ public class BlockErroreFurnace extends ElementsTreesalliancejukedisksMod.ModEle
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(TreesalliancejukedisksMod.instance, GuiErroreRefiner.GUIID, world, x, y, z);
-			}
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);

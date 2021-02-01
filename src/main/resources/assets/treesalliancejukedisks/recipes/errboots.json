@@ -1,0 +1,26 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "treesalliancejukedisks:error_ingot"
+    },
+    "2": {
+      "item": "treesalliancejukedisks:error_ingot"
+    },
+    "3": {
+      "item": "treesalliancejukedisks:error_ingot"
+    },
+    "5": {
+      "item": "treesalliancejukedisks:error_ingot"
+    }
+  },
+  "result": {
+    "item": "treesalliancejukedisks:tester_thingsboots",
+    "count": 1
+  }
+}

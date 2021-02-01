@@ -120,7 +120,7 @@
     "category": "block",
     "sounds": [
       {
-        "name": "treesalliancejukedisks:error_mined",
+        "name": "treesalliancejukedisks:errore",
         "stream": false
       }
     ]

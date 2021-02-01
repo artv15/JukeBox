@@ -61,6 +61,19 @@
           "x": 258,
           "y": 80
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel: <BNBT:integer:fuelRemaining>%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Fuel: <BNBT:integer:fuelRemaining>%",
+          "x": 231,
+          "y": 44
+        }
       }
     ]
   }

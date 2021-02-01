@@ -21,7 +21,10 @@ public class ProcedureMessage1RightClickedInAir extends ElementsTreesalliancejuk
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("hi. This is first message ever created. So, have fun!"), (false));
+			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("I have created some sort of armor..."), (false));
+		}
+		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
+			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("I dunno what have i done..."), (false));
 		}
 	}
 }

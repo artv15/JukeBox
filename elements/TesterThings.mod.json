@@ -10,14 +10,26 @@
     "textureLeggings": "tester_leggins",
     "enableBoots": true,
     "textureBoots": "tester_boots",
+    "onHelmetTick": {
+      "name": "TesterThingsHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "TesterThingsBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "TesterThingsLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "TesterThingsBootsTickEvent"
+    },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:WIPstuff"
     },
     "armorTextureFile": "tester_set",
-    "helmetName": "Tester Things Helmet",
-    "bodyName": "Tester Things Body",
-    "leggingsName": "Tester Things Leggings",
-    "bootsName": "Tester Things Boots",
+    "helmetName": "Tester Helmet",
+    "bodyName": "Tester Chestplate",
+    "leggingsName": "Tester Leggings",
+    "bootsName": "Tester Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,11 +50,11 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 100,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
+    "maxDamage": 5,
+    "damageValueHelmet": 10,
+    "damageValueBody": 24,
     "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "damageValueBoots": 8,
     "enchantability": 9,
     "toughness": 0.0,
     "equipSound": {
