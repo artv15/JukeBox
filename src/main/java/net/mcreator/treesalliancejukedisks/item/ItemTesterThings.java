@@ -43,7 +43,7 @@ public class ItemTesterThings extends ElementsTreesalliancejukedisksMod.ModEleme
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TESTER_THINGS", "treesalliancejukedisks:tester_set", 5, new int[]{8, 5, 24, 10},
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TESTER_THINGS", "treesalliancejukedisks:tester_set", 5, new int[]{8, 30, 96, 40},
 				9, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.anvil.place")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD) {
 			@Override

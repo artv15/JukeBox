@@ -1,12 +1,11 @@
 package net.mcreator.treesalliancejukedisks.procedure;
 
-import net.minecraft.util.text.TextComponentString;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.treesalliancejukedisks.ElementsTreesalliancejukedisksMod;
 
 import java.util.Map;
+import java.util.HashMap;
 
 @ElementsTreesalliancejukedisksMod.ModElement.Tag
 public class ProcedureMessage1RightClickedInAir extends ElementsTreesalliancejukedisksMod.ModElement {
@@ -20,11 +19,10 @@ public class ProcedureMessage1RightClickedInAir extends ElementsTreesalliancejuk
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("I have created some sort of armor..."), (false));
-		}
-		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("I dunno what have i done..."), (false));
+		{
+			Map<String, Object> $_dependencies = new HashMap<>();
+			$_dependencies.put("entity", entity);
+			ProcedureMessage.executeProcedure($_dependencies);
 		}
 	}
 }

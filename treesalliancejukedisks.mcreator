@@ -568,6 +568,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "refiner_recepe"
+    },
+    {
+      "name": "Errorstick",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "errorstick"
+    },
+    {
+      "name": "Message",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "message",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -696,6 +722,7 @@
       "subtitles.errore": "",
       "item.tester_thingslegs.name": "Tester Leggings",
       "item.tester_thingsboots.name": "Tester Boots",
+      "item.errorstick.name": "Errorstick",
       "item.error_ingot.name": "Error Ingot",
       "advancements.treesadditions.descr": "The beggining of your jorney",
       "advancements.a_fatal_excepiton_occured.descr": "This... How... Error...",
@@ -748,6 +775,7 @@
       "subtitles.errore": "",
       "item.tester_thingslegs.name": "Tester Leggings",
       "item.tester_thingsboots.name": "Tester Boots",
+      "item.errorstick.name": "Errorstick",
       "item.error_ingot.name": "Error Ingot",
       "advancements.treesadditions.descr": "The beggining of you jorney",
       "advancements.a_fatal_excepiton_occured.descr": "This... How... Error...",
@@ -785,7 +813,7 @@
     "version": "1.0.2",
     "description": "Ogo, kacheli!",
     "author": "artv15",
-    "websiteURL": "http://curseforge.com",
+    "websiteURL": "github.com/artv15/JukeBox/releases",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
