@@ -1,0 +1,22 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "treesalliancejukedisks:error_ingot"
+    },
+    "1": {
+      "item": "treesalliancejukedisks:error_ingot"
+    },
+    "2": {
+      "item": "treesalliancejukedisks:error_ingot"
+    }
+  },
+  "result": {
+    "item": "treesalliancejukedisks:error_ingot_compressed",
+    "count": 1
+  }
+}

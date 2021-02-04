@@ -1,0 +1,20 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "treesalliancejukedisks:error_ingot_compressed"
+    }
+  },
+  "result": {
+    "item": "treesalliancejukedisks:errorstick",
+    "count": 1
+  }
+}

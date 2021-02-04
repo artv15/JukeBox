@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = TreesalliancejukedisksMod.MODID, version = TreesalliancejukedisksMod.VERSION)
 public class TreesalliancejukedisksMod {
 	public static final String MODID = "treesalliancejukedisks";
-	public static final String VERSION = "1.0.2";
+	public static final String VERSION = "1.0.3-beta";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("treesalliancejuked:a");
 	@SidedProxy(clientSide = "net.mcreator.treesalliancejukedisks.ClientProxyTreesalliancejukedisksMod", serverSide = "net.mcreator.treesalliancejukedisks.ServerProxyTreesalliancejukedisksMod")
 	public static IProxyTreesalliancejukedisksMod proxy;

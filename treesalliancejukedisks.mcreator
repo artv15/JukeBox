@@ -594,6 +594,84 @@
           }
         ]
       }
+    },
+    {
+      "name": "ErrorSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ErrorSword",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_sword"
+    },
+    {
+      "name": "ErrorIngotCompressed",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_ingot_compressed"
+    },
+    {
+      "name": "ErrorStickCraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_stick_craft"
+    },
+    {
+      "name": "CompressedErrorIngot",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_error_ingot"
+    },
+    {
+      "name": "ErrorSwordCraft",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_sword_craft"
     }
   ],
   "variable_elements": [],
@@ -705,9 +783,9 @@
       "item.ajoura.name": "SCPF theme",
       "advancements.i_was_testing.descr": "Equip tester\u0027s armor",
       "item.duhast.name": "Du Hast",
-      "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
-      "advancements.whataboutscp.title": "Что насчёт печеньки?",
       "itemGroup.tabwipstuff": "WIP stuff",
+      "advancements.whataboutscp.title": "Что насчёт печеньки?",
+      "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
       "advancements.full.title": "Wow, such a space!",
       "advancements.i_was_testing.title": "I Was Testing",
       "subtitles.ftl": "",
@@ -723,14 +801,15 @@
       "item.tester_thingslegs.name": "Tester Leggings",
       "item.tester_thingsboots.name": "Tester Boots",
       "item.errorstick.name": "Errorstick",
-      "item.error_ingot.name": "Error Ingot",
       "advancements.treesadditions.descr": "The beggining of your jorney",
+      "item.error_ingot.name": "Error Ingot",
       "advancements.a_fatal_excepiton_occured.descr": "This... How... Error...",
       "item.tetrusexndt.name": "TETRUS",
       "item.musicheart.name": "Зелёный кристалл музыки",
       "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
       "item.pereczhget.name": "Pereczhget",
       "itemGroup.tabtreescomponents": "TreesJukeBox: Компоненты",
+      "item.error_ingot_compressed.name": "Error Ingot Compressed",
       "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
       "item.ppfull.name": "PPK Ressurection(полная)",
       "item.record.duhast.desc": "Alex C - Du Hast",
@@ -751,6 +830,7 @@
       "item.record.rickroll.desc": "Точно не рикролл",
       "item.someperecshit.name": "долбаёб под именем перец",
       "item.rickroll.name": "Rick Roll",
+      "item.error_sword.name": "Error Sword",
       "item.ppkressurection.name": "PPK Ressurection"
     },
     "en_us": {
@@ -758,9 +838,9 @@
       "item.ajoura.name": "SCPF theme",
       "advancements.i_was_testing.descr": "Equip tester\u0027s armor",
       "item.duhast.name": "Du Hast",
-      "itemGroup.tabwipstuff": "WIP stuff",
-      "advancements.whataboutscp.title": "What about SCP-173?",
       "advancements.full.descr": "Well, you killed alot of endermens. F to them...",
+      "advancements.whataboutscp.title": "What about SCP-173?",
+      "itemGroup.tabwipstuff": "WIP stuff",
       "advancements.full.title": "Wow, such a space!",
       "advancements.i_was_testing.title": "I Was Testing",
       "subtitles.ftl": "",
@@ -776,14 +856,15 @@
       "item.tester_thingslegs.name": "Tester Leggings",
       "item.tester_thingsboots.name": "Tester Boots",
       "item.errorstick.name": "Errorstick",
-      "item.error_ingot.name": "Error Ingot",
       "advancements.treesadditions.descr": "The beggining of you jorney",
+      "item.error_ingot.name": "Error Ingot",
       "advancements.a_fatal_excepiton_occured.descr": "This... How... Error...",
       "item.tetrusexndt.name": "TETRUS Extended",
       "item.musicheart.name": "Music heart green",
       "item.record.ajoura.desc": "Ajoura - The SCP Foundation Main Theme",
       "item.pereczhget.name": "Pereczhget",
       "itemGroup.tabtreescomponents": "Trees Components",
+      "item.error_ingot_compressed.name": "Error Ingot Compressed",
       "item.record.tetrusexndt.desc": "Nintendo - Tetris 99 theme",
       "item.ppfull.name": "JukeDisk",
       "item.record.duhast.desc": "Alex C - Du Hast",
@@ -804,16 +885,17 @@
       "item.record.rickroll.desc": "Rick Astley - Never Gonna Give You Up",
       "item.someperecshit.name": "долбаёб под именем перец",
       "item.rickroll.name": "JukeDisk",
+      "item.error_sword.name": "Error Sword",
       "item.ppkressurection.name": "JukeDisk"
     }
   },
   "workspaceSettings": {
     "modid": "treesalliancejukedisks",
     "modName": "TreesAlliance_JukeDisks",
-    "version": "1.0.2",
+    "version": "1.0.3-beta",
     "description": "Ogo, kacheli!",
     "author": "artv15",
-    "websiteURL": "github.com/artv15/JukeBox/releases",
+    "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
