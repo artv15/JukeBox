@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "has_mistress_perm": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

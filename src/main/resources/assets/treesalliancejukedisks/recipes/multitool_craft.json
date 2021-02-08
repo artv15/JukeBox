@@ -1,0 +1,30 @@
+{
+  "group": "treesalliancejukedisks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "treesalliancejukedisks:error_ingot_compressed"
+    },
+    "1": {
+      "item": "treesalliancejukedisks:error_ingot_compressed"
+    },
+    "2": {
+      "item": "treesalliancejukedisks:error_ingot_compressed"
+    },
+    "4": {
+      "item": "treesalliancejukedisks:errorstick"
+    },
+    "7": {
+      "item": "treesalliancejukedisks:errorstick"
+    }
+  },
+  "result": {
+    "item": "treesalliancejukedisks:errormultitool",
+    "count": 1
+  }
+}

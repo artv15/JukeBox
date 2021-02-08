@@ -21,13 +21,16 @@ public class ProcedureMessage extends ElementsTreesalliancejukedisksMod.ModEleme
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Added some various resources to create and fixed armor."), (false));
+			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Well, I want to remaster disks crafting recepe."), (false));
 		}
 		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Nothing special, I think..."), (false));
+			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("First, they are hard"), (false));
 		}
 		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Right?"), (false));
+			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Second, having some vanilla s**t is not a good idea"), (false));
+		}
+		if (entity instanceof EntityPlayer && !entity.world.isRemote) {
+			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Then, here I will try to introduce a new crafting system!"), (false));
 		}
 	}
 }

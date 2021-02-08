@@ -124,5 +124,23 @@
         "stream": false
       }
     ]
+  },
+  "hurts": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:00936-audiotrimmer.com",
+        "stream": false
+      }
+    ]
+  },
+  "hype": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "treesalliancejukedisks:avorion_ost_-_hyperdrive",
+        "stream": true
+      }
+    ]
   }
 }

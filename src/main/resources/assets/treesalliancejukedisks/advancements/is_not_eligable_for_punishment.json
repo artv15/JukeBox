@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "is_not_eligable_for_punishment": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "treesalliancejukedisks:full"
+}

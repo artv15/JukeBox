@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "hyperspace",
+    "name": "Hyperspace",
+    "description": "Avorios OST - Hyperspace",
+    "creativeTab": {
+      "value": "CUSTOM:TreesJukeBox"
+    },
+    "music": {
+      "value": "CUSTOM:hype"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
